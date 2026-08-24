@@ -12,5 +12,7 @@ export const GoodsList: React.FC<Props> = React.memo(({ goods }) => (
         {good.name}
       </li>
     ))}
-  </ul>)
-);
+  </ul>
+));
+
+GoodsList.displayName = 'GoodsList';
